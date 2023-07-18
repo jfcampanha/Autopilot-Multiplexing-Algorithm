@@ -1,0 +1,5 @@
+/home/joao/PESTA/control_system/v3/build/CMakeFiles/dsdlc.dir
+/home/joao/PESTA/control_system/v3/build/CMakeFiles/publisher_sensors.dir
+/home/joao/PESTA/control_system/v3/build/CMakeFiles/subscriber_sensors.dir
+/home/joao/PESTA/control_system/v3/build/CMakeFiles/edit_cache.dir
+/home/joao/PESTA/control_system/v3/build/CMakeFiles/rebuild_cache.dir

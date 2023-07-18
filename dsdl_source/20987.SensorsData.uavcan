@@ -1,0 +1,15 @@
+#
+# Generic message with the actual raw reading of autopilot sensors
+#
+
+uint8 autopilot
+
+#
+# Sensors
+#
+Accelerometer[<=3] acc
+Gyroscope[<=3] gyro
+Magnetometer[<=3] mag
+Barometer[<=3] baro
+Airspeed[<=3] airspeed
+GNSS[<=2] gnss

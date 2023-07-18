@@ -1,0 +1,14 @@
+#
+# Generic status message to report Airspeed data
+#
+
+#
+# Airspeed in m/s
+#
+float16 airspeed
+#
+# Temperature in degC
+#
+float16 temperature
+
+bool health

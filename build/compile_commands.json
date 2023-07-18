@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/joao/PESTA/control_system/v3/build",
+  "command": "/usr/bin/g++  -I/home/joao/PESTA/control_system/v3/dsdlc_generated  -Wall -Wextra -std=c++11 -O3 -g -o CMakeFiles/publisher_sensors.dir/publisher_sensors.cpp.o -c /home/joao/PESTA/control_system/v3/publisher_sensors.cpp",
+  "file": "/home/joao/PESTA/control_system/v3/publisher_sensors.cpp"
+},
+{
+  "directory": "/home/joao/PESTA/control_system/v3/build",
+  "command": "/usr/bin/g++  -I/home/joao/PESTA/control_system/v3/dsdlc_generated  -Wall -Wextra -std=c++11 -O3 -g -o CMakeFiles/publisher_sensors.dir/home/joao/PESTA/2._Node_initialization_and_startup/platform_linux.cpp.o -c /home/joao/PESTA/2._Node_initialization_and_startup/platform_linux.cpp",
+  "file": "/home/joao/PESTA/2._Node_initialization_and_startup/platform_linux.cpp"
+},
+{
+  "directory": "/home/joao/PESTA/control_system/v3/build",
+  "command": "/usr/bin/g++  -I/home/joao/PESTA/control_system/v3/dsdlc_generated  -Wall -Wextra -std=c++11 -O3 -g -o CMakeFiles/subscriber_sensors.dir/subscriber_sensors.cpp.o -c /home/joao/PESTA/control_system/v3/subscriber_sensors.cpp",
+  "file": "/home/joao/PESTA/control_system/v3/subscriber_sensors.cpp"
+},
+{
+  "directory": "/home/joao/PESTA/control_system/v3/build",
+  "command": "/usr/bin/g++  -I/home/joao/PESTA/control_system/v3/dsdlc_generated  -Wall -Wextra -std=c++11 -O3 -g -o CMakeFiles/subscriber_sensors.dir/home/joao/PESTA/2._Node_initialization_and_startup/platform_linux.cpp.o -c /home/joao/PESTA/2._Node_initialization_and_startup/platform_linux.cpp",
+  "file": "/home/joao/PESTA/2._Node_initialization_and_startup/platform_linux.cpp"
+}
+]

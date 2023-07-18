@@ -1,0 +1,14 @@
+#
+# Altitude in meters
+#
+float16   altitude
+#
+# Pressure in Pascal
+#
+float16   pressure
+#
+# Temperature reading in degC
+#
+int16 temperature
+
+bool health

@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "autopilot_control_system",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dsdlc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsdlc-Debug-bc339b0c3a3e8969e19f.json",
+					"name" : "dsdlc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_sensors::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_sensors-Debug-b823c686c3560d818046.json",
+					"name" : "publisher_sensors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriber_sensors::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriber_sensors-Debug-626311403c4380f5ea68.json",
+					"name" : "subscriber_sensors",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/joao/PESTA/control_system/v3/build",
+		"source" : "/home/joao/PESTA/control_system/v3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

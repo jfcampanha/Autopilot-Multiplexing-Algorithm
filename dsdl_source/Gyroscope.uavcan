@@ -1,0 +1,22 @@
+#
+# Angular velocity in radian/second
+# The samples are represented in the body frame, the axes are ordered as follows:
+#   1. angular velocity around X (roll rate)
+#   2. angular velocity around Y (pitch rate)
+#   3. angular velocity around Z (yaw rate)
+#
+float32[3] angular_velocity
+#
+# Temperature reading in degC. Up to one per axis
+#
+float32[<=3] temperature
+#
+# Error counter. Up to one per axis
+#
+uint32[<=3] error_count
+#
+# Observer sensor rate in Hz. Up to one per axis
+#
+uint16[<=3] rate
+
+bool health

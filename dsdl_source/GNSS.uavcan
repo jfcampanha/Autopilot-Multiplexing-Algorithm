@@ -1,0 +1,53 @@
+#
+# Generic status message to report GNSS Data
+#
+
+#
+# Fix Status
+#
+uint8 status
+#
+# Number of satellites visible
+#
+uint8 satellites_visible
+#
+# Horizontal Dilution of Precision
+#
+uint16 hdop
+#
+# Vertical Dilution of Precision
+#
+uint16 vdop
+#
+# Latitude in degE7
+#
+int32 latitude
+#
+# Longitude in degE7
+#
+int32 longitude
+#
+# Altitude above mean sea level in meters
+#
+int32 altitude
+#
+# Ground Speed in m/s
+#
+float16 ground_speed
+#
+# Ground Course in degrees
+#
+float16 ground_course
+
+bool health
+
+#
+# Fix Types
+#
+uint8 STATUS_TYPE_NO_GCS = 0
+uint8 STATUS_TYPE_NO_FIX = 1
+uint8 STATUS_TYPE_2D_FIX = 2
+uint8 STATUS_TYPE_3D_FIX = 3
+uint8 STATUS_TYPE_DGPS = 4
+uint8 STATUS_TYPE_RTK_FLOAT = 5
+uint8 STATUS_TYPE_RTK_FIX = 6

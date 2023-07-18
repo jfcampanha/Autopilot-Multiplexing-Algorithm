@@ -1,0 +1,9 @@
+#
+# Sensors Status
+#
+bool[<=3] acc_status
+bool[<=3] gyro_status
+bool[<=3] mag_status
+bool[<=3] baro_status
+bool[<=3] airspeed_status
+bool[<=2] gnss_status

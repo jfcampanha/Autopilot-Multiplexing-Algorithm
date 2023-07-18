@@ -1,0 +1,6 @@
+#
+# Magnetic field readings, in Gauss, in body frame.
+#
+float16[3] magnetic_field_ga
+
+bool health

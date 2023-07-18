@@ -1,0 +1,24 @@
+#
+# Linear acceleration in meter/(second^2)
+# The samples are represented in the body frame, the axes are ordered as follows:
+#   1. linear acceleration along X (forward positive)
+#   2. linear acceleration along Y (right positive)
+#   3. linear acceleration along Z (down positive)
+#
+float32[3] accelerometer
+#
+# Temperature reading in degC. Up to one per axis
+#
+float32[<=3] temperature
+#
+# Error counter. Up to one per axis
+#
+uint32[<=3] error_count
+#
+# Observer sensor rate in Hz. Up to one per axis
+#
+uint16[<=3] rate
+
+bool health
+
+

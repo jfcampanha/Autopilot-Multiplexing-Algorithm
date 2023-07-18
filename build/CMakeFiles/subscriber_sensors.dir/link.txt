@@ -1,0 +1,1 @@
+/usr/bin/g++  -Wall -Wextra -std=c++11 -O3 -g -rdynamic CMakeFiles/subscriber_sensors.dir/subscriber_sensors.cpp.o CMakeFiles/subscriber_sensors.dir/home/joao/PESTA/2._Node_initialization_and_startup/platform_linux.cpp.o -o subscriber_sensors   -L/usr/local/lib/libfort.a  -Wl,-rpath,/usr/local/lib/libfort.a /usr/local/lib/libuavcan.a -lrt -lfort 

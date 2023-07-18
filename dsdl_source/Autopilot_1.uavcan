@@ -1,0 +1,8 @@
+#SENSORS DATA
+SensorsData[1] autopilot_index
+
+#SENSORS STATUS
+SensorsStatus[1] status_index
+
+
+
