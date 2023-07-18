@@ -1,5 +1,5 @@
-# autopilot_multiplexing
-Linux Environment Aplication!
+#Autopilot Multiplexing Algorithm
+Publisher-Subscriber Linux Environment Aplication
 -----------------------------
 
 Install libuavcan and libfort libraries, check if Socket CAN is in the Linux system where the programs will run
